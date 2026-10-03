@@ -38,3 +38,5 @@
 @media(max-width:760px){.regionGrid{grid-template-columns:1fr 1fr}.islandNext{display:block}.islandTextLink{display:block;margin:20px 0 0}.islandHero{min-height:420px}}
 
 .headerActions{display:flex;align-items:center;gap:14px}.providerLink{font-size:11px;font-weight:800;color:#5d7072}@media(max-width:850px){.providerLink{display:none}}
+
+.reserveButton{border:0;cursor:pointer;width:100%;font:inherit;font-weight:800}.bookingProfile{font-size:11px;color:#607477;font-weight:700;margin:10px 0 16px}
