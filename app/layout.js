@@ -1,3 +1,1 @@
-import "./globals.css";
-export const metadata={title:"ISLORA | Experience Every Island",description:"Flights, island hopping, rides and unforgettable Caribbean experiences in one place."};
-export default function RootLayout({children}){return <html lang="en"><body>{children}</body></html>}
+import "./globals.css";import MobileDock from "../components/MobileDock";export const metadata={title:"ISLORA | Experience Every Island",description:"Flights, island hopping, rides and unforgettable Caribbean experiences in one place.",manifest:"/manifest.webmanifest",themeColor:"#092b35",appleWebApp:{capable:true,title:"ISLORA",statusBarStyle:"black-translucent"}};export const viewport={width:"device-width",initialScale:1,viewportFit:"cover",themeColor:"#092b35"};export default function RootLayout({children}){return <html lang="en"><body>{children}<MobileDock/></body></html>}
