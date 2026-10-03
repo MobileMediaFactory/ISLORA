@@ -46,3 +46,5 @@
 .roadtripChoose{border:0;background:none;padding:0;color:#092b35;font:inherit;font-weight:900;cursor:pointer;text-decoration:underline;text-underline-offset:4px}
 
 .flightAdd{border:0;background:none;padding:0;color:#092b35;font:inherit;font-weight:900;cursor:pointer;text-decoration:underline;text-underline-offset:3px}.selectedFlight{background:#e4efeb;border-radius:12px;padding:14px 16px;margin-bottom:20px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}.selectedFlight small{color:#0b9897;font-weight:900}.selectedFlight b{flex:1;min-width:220px}.selectedFlight span{font-size:10px;color:#607477;font-weight:700}
+
+.tripStack{display:grid;gap:8px;margin:0 0 14px}.tripMini{background:#fff;border:1px solid #e0e5e2;border-radius:12px;padding:12px 15px;display:grid;grid-template-columns:110px 1fr auto;gap:12px;align-items:center}.tripMini small{text-transform:uppercase;font-size:9px;font-weight:900;color:#0b9897}.tripMini b{font-size:13px}.tripMini span{font-size:10px;color:#6b7d7f}@media(max-width:650px){.tripMini{grid-template-columns:1fr}.tripMini span{margin-top:-6px}}
