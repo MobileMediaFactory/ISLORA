@@ -31,3 +31,5 @@
 
 .plannerForm{max-width:950px}.choiceGrid button.selected{background:#092b35;color:white;border-color:#092b35}.plannerBuild{border:0;margin-top:30px;cursor:pointer}.planProfile{display:flex;gap:9px;flex-wrap:wrap;margin:25px 0}.planProfile span{padding:9px 13px;border-radius:99px;background:#e4efeb;color:#176d6b;font-size:11px;font-weight:800}.itinerary article{display:grid;grid-template-columns:70px 1fr auto;gap:20px;align-items:center;background:#fff;border-radius:13px;padding:20px;margin-bottom:9px}.itinerary article>span{font-size:9px;color:#0aa6a6;font-weight:900}.itinerary h3{margin:0 0 5px}.itinerary p{margin:0;color:#7e8c8e;font-size:12px}.itinerary button{border:1px solid #d2d7d3;background:transparent;border-radius:99px;padding:8px 12px}.planProfile+.itinerary{max-width:950px}
 @media(max-width:760px){.itinerary article{grid-template-columns:50px 1fr}.itinerary button{grid-column:2;width:max-content}}
+
+.filter button{cursor:pointer}.filter button.active{background:#092b35;color:#fff;border-color:#092b35}.exploreCount{font-size:11px;font-weight:800;color:#092b35;margin:18px 0}.exploreCount span{color:#8a9899;font-weight:600}
