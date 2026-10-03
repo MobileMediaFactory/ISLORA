@@ -1,0 +1,1 @@
+import Link from "next/link";export default function MobileDock(){return <div className="mobileDock"><Link href="/"><span>⌂</span>Home</Link><Link href="/explore"><span>⌖</span>Explore</Link><Link href="/planner"><span>＋</span>Plan</Link><Link href="/flights"><span>✈</span>Flights</Link><Link href="/trips"><span>◇</span>Trips</Link></div>}
